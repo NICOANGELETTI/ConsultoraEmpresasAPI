@@ -36,8 +36,8 @@ public class EmpresaController {
     
     @GetMapping("/empresa/traerEmpresas")
     public List<Empresa> traerEmpresas(){
-    List<Empresa> listaConsultoras = empresaServ.traerEmpresas();
-    return listaConsultoras ;
+    List<Empresa> listaEmpresas = empresaServ.traerEmpresas();
+    return listaEmpresas ;
 }
     
     

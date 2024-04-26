@@ -8,8 +8,9 @@ import nicoangeletti.ConsultoraEmpresas.model.Encuesta;
 import nicoangeletti.ConsultoraEmpresas.model.Pregunta;
 import nicoangeletti.ConsultoraEmpresas.repository.IEncuestaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-
+@Service
 public class EncuestaService implements IEncuestaService {
 
     
